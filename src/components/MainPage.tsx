@@ -35,16 +35,17 @@ export function MainPage() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{
-                duration: 0.25,
+                duration: 5,
                 delay: i / 10,
               }}
               key={i}
-              className="bg-clip-text text-transparent  text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-2xl md:text-3xl lg:text-5xl font-sans py-2 md:py-10 relative  font-bold tracking-tight"
+              className="bg-clip-text text-transparent text-center bg-gradient-to-b from-red-600 via-yellow-700 to-yellow-400 dark:from-red-900 dark:via-brown-900 dark:to-yellow-500 text-2xl md:text-3xl lg:text-5xl font-sans py-2 md:py-10 relative font-bold tracking-tight"
             >
               {el}{" "}
             </motion.span>
           ))}
         </h2>
+
         <div className="max-w-xl mx-auto text-sm md:text-lg text-neutral-700 dark:text-neutral-400 text-center z-20">
           <div className="flex justify-center space-x-6 mt-6">
             <motion.div style={{ rotate }}>
