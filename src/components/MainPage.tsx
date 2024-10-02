@@ -19,7 +19,7 @@ export function MainPage() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{
-                duration: 0.25,
+                duration: 5,
                 delay: i / 10,
               }}
               key={i}
